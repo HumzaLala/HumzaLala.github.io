@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kufam', cursive;
+    font-style: normal;
+}
+
+.background {
+    background-image: url("./images/background-top.jpeg");
+    background-size: cover;
+    height: 300px;
+    padding-bottom: 20px;
+}
+
+.uppernav {
+    text-align: center;
+}
+
+.uppernav ul {
+    display:inline-flex;
+    list-style: none;
+}
+
+.uppernav ul li {
+    width: 12-px;
+    margin: 15px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.uppernav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    margin: 15px;
+}
+
+.active, .uppernav ul li :hover {
+    background-color: rgb(148, 164, 197);
+    border-radius: 5px;
+}
+
+h1, h3 {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 15px;
+    color: rgb(25, 26, 25);
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+.about, .skills {
+    padding: 20px;
+    margin: 20px;
+}
+
+ul {
+    list-style: circle;
+}
+
+.about img {
+    width: 20vw;
+    height: auto;
+}
+
+.uw-banner {
+    text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    background: rgb(25, 26, 25);
+    color: white;
+}
+
+.footer {
+    margin: 15px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
