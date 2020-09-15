@@ -54,13 +54,46 @@ h1 {
     font-weight: normal;
 }
 
-.about, .skills {
+h4 {
+    margin: 20px;
+}
+
+h5 {
+    padding: 10px;
+    text-decoration: underline;
+}
+
+#skills-label {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.about {
     padding: 20px;
     margin: 20px;
 }
 
+.skills-container {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-item {
+    width: 200px;
+    margin: 10px;
+}
+
+.tech {
+    min-height: 100px;
+}
+
+.personal {
+    min-height: 100px;
+}
+
 ul {
     list-style: circle;
+    list-style-position: inside;
 }
 
 .about img {
@@ -95,4 +128,6 @@ ul {
     margin: 15px;
     margin-bottom: 10px;
     padding: 15px;
+    background-color: #e8e8e8;
+    border-radius: 5px;
 }
