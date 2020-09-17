@@ -1,4 +1,4 @@
 function handleSelect(elm)
 {
-    window.location = elm.value+".html";
+    window.location.href = elm.value+".html";
 }
