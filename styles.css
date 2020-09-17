@@ -20,6 +20,7 @@
 
 .uppernav ul {
     display:inline-flex;
+    flex-wrap: wrap;
     list-style: none;
 }
 
@@ -41,6 +42,23 @@
     background-color: rgb(148, 164, 197);
     border-radius: 5px;
 }
+
+.uppernav-small select{
+    display: none;
+    width: fit-content;
+    height: 30px;
+    border: 1px solid #999;
+    font-size: 18px;
+    color: #CCC;
+    background-color: black;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+@media (max-width: 550px) {
+    .uppernav ul     { display: none; }
+    .uppernav-small select { display: inline-block; }
+  }
 
 h1, h3 {
     text-align: center;

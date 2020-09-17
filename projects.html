@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="/scripts/script.js"></script>
 </head>
 <body>
     <div class="background">
@@ -15,6 +16,15 @@
 				<li><a href="about.html">About</a></li>
 				<li class="active"><a href="projects.html">Projects</a></li>
 			</ul>
+		</div>
+
+		<div class="uppernav-small">
+			<select name="dropdown" onchange="javascript:handleSelect(this)">
+				<option value="index">Select</option>
+    			<option value="index">Home</option> 
+   			 	<option value="about">About</option> 
+    			<option value="projects" selected="selected">Projects</option> 
+			</select>
 		</div>
 
         <br><br>
