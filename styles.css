@@ -99,9 +99,16 @@ h5 {
 }
 
 .project-item {
-    width: 200px;
-    margin: 10px;
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
     min-height: 100px;
+    background: linear-gradient(#9198e5, rgb(197, 210, 231));
+    border-radius: 6px;
+}
+
+.project-item article {
+    text-indent: 50px;
 }
 
 #showcases-label {
