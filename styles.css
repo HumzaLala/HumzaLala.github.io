@@ -119,14 +119,6 @@ h5 {
     margin: 20px;
 }
 
-#whoami img {
-    float: left;
-    margin: 5px;
-    padding: 5px;
-    width: auto;
-    height: 25vh;
-}
-
 
 .skills-container {
     display: flex;
