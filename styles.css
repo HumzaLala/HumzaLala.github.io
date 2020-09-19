@@ -114,10 +114,19 @@ h5 {
     font-size: 1.5em;
 }
 
-.about {
+.info {
     padding: 20px;
     margin: 20px;
 }
+
+#whoami img {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    width: auto;
+    height: 25vh;
+}
+
 
 .skills-container {
     display: flex;
@@ -168,7 +177,7 @@ ul {
     list-style-position: inside;
 }
 
-.about img {
+.info img {
     width: 20vw;
     height: auto;
 }
