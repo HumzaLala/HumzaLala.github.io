@@ -154,6 +154,14 @@ h5 {
     border-radius: 6px;
 }
 
+.project-showcase {
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
+    min-height: 100px;
+    border: none;
+}
+
 .project-item article {
     text-indent: 50px;
 }
