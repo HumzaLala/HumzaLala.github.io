@@ -83,7 +83,7 @@
     background: linear-gradient(#0047ba,#4f92ff);
 }
 
-@media (max-width: 550px) {
+@media (max-width: 650px) {
     .uppernav ul     { display: none; }
     .uppernav-small ul { display: inline-block; }
   }
@@ -119,6 +119,10 @@ h5 {
     margin: 20px;
 }
 
+.info li {
+    padding: 5px;
+    margin: 2px;
+}
 
 .skills-container {
     display: flex;
