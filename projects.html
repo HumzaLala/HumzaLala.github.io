@@ -37,6 +37,37 @@
     </div>
 	
 	<div class="projects-container">
+
+		<div class="project-item">
+			<h4>333gle (mini-Google)</h4>
+			<article>
+				During my systems programming course (CSE 333), I created a file search system from scratch in
+				C/C++. Here are some of my accomplishments: <br>
+				▪ Implemented a doubly-linked list and hash table in C. <br>
+				▪ Recursively parsed files given a root directory to construct an inverted index data structure,
+				mapping each encountered word to a structure that maps matching documents to the position of the word in the document. <br>
+				▪ Utilized POSIX functions to read and write the inverted index to disk in network byte order.<br>
+				▪ Included file validation by storing and recalculating a checksum in each index file.<br>
+				▪ Created a multithreaded web server that listens on a port and accepts client requests (concurrently) to query the search engine.<br>
+				▪ Used POSIX accept(), read(), and write() functions to communicate with each client.<br>
+				▪ Parsed HTTP requests and formed responses that display an HTML webpage of query results.<br>
+				▪ Included network security measures to escape unsafe HTML and check for unsafe file queries.<br>
+				▪ Closely followed the Google style guide for C/C++ code.
+			</article>
+		</div>
+
+		<div class="project-item">
+			<h4>Campus Paths</h4>
+			<article>
+				During my Software Design and implementation course, I developed an interactive map of the UW campus. 
+				Here are some accomplishments: <br>
+				▪ Implemented the Graph data structure in Java and used Dijkstra's algorithm to find the shortest path between 2 buildings<br>
+				▪ Used the Spark framework to create a backend server holding the algorithmic logic<br>
+				▪ Communicated between the frontend React web app and the backend server using Google Gson<br>
+				▪ Displayed the shortest path line on a React leaflet map
+			</article>
+		</div>
+
 		<div class="project-item">
 			<h4>MicroManager School Planner</h4>
 			<article>
@@ -55,6 +86,35 @@
 				<strong>*UPDATE* The published version of this app is available for download. 
 				(Credit to one of my teammates, Safwaan Taher, for publishing the finished version).</strong>
 			</article>
+		</div>
+
+		<div class="project-item">
+			<h4>House Scout</h4>
+			<article>
+				For Dubhacks 2020 at the University of Washington, my team and I created a web-scraper Android app that found houses for the
+				user based on the zipcode they entered. If the user likes a house, they can click on a link to take them to an area
+				where they can contact the seller. To help aid the user in their decision, they can click on the image of a house
+				to show certain metrics about the area (based on the zipcode), such as the school test scores, median income, average
+				commute time, and unemployment rate. The user can also create an account with their email, which is stored in a FireBase
+				database. We created this app using Android and Jsoup as the HTML parser. Some challenges my team and I encountered while
+				creating this app were that we had to learn about Threads and the AsyncTask when making the app, which was completely new to us.
+				We also had to naviagte through the webpages we scraped information from, so we had to get familiar with the webpages' layout.
+				Overall, this was a very fun project to create and I learned a lot from it.
+			</article>
+		</div>
+
+		<div class="project-item">
+			<h4>Dhikr App</h4>
+			<article>
+				This project was a religious tool app made on Android Studio. Many of my family members and friends
+				constantly reported not having a good and reliable app for Dhikr, which is a form of meditation. Thus, I created
+				this Android app which captures the quantity and type of meditation the user has done,
+				along with providing references to different types of meditation. This app was also where I started getting familiar
+				with data storage, as I used SharedPreferences to store the user's amount of Dhikr. A big challenge for me was
+				actually publishing the app to the Play Store, as it was a completely new concept for me. This app also got me excited
+				about app development as I saw the effect my app was having on people.
+			</article>
+			<a target="_blank" href="https://play.google.com/store/apps/details?id=dhikr.counter">Download</a>
 		</div>
 
 		<div class="project-item">
@@ -84,34 +144,6 @@
 			</article>
 		</div>
 
-		<div class="project-item">
-			<h4>Dhikr App</h4>
-			<article>
-				This project was a religious tool app made on Android Studio. Many of my family members and friends
-				constantly reported not having a good and reliable app for Dhikr, which is a form of meditation. Thus, I created
-				this Android app which captures the quantity and type of meditation the user has done,
-				along with providing references to different types of meditation. This app was also where I started getting familiar
-				with data storage, as I used SharedPreferences to store the user's amount of Dhikr. A big challenge for me was
-				actually publishing the app to the Play Store, as it was a completely new concept for me. This app also got me excited
-				about app development as I saw the effect my app was having on people.
-			</article>
-			<a target="_blank" href="https://play.google.com/store/apps/details?id=dhikr.counter">Download</a>
-		</div>
-
-		<div class="project-item">
-			<h4>House Scout</h4>
-			<article>
-				For Dubhacks 2020 at the University of Washington, my team and I created a web-scraper Android app that found houses for the
-				user based on the zipcode they entered. If the user likes a house, they can click on a link to take them to an area
-				where they can contact the seller. To help aid the user in their decision, they can click on the image of a house
-				to show certain metrics about the area (based on the zipcode), such as the school test scores, median income, average
-				commute time, and unemployment rate. The user can also create an account with their email, which is stored in a FireBase
-				database. We created this app using Android and Jsoup as the HTML parser. Some challenges my team and I encountered while
-				creating this app were that we had to learn about Threads and the AsyncTask when making the app, which was completely new to us.
-				We also had to naviagte through the webpages we scraped information from, so we had to get familiar with the webpages' layout.
-				Overall, this was a very fun project to create and I learned a lot from it.
-			</article>
-		</div>
 	</div>
 
 	<h2 id="showcases-label">Project Showcases</h2>
