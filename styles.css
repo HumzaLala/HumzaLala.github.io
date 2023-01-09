@@ -158,6 +158,10 @@ h5 {
     border-radius: 6px;
 }
 
+.imgs {
+    padding: 10px;
+}
+
 .project-showcase {
     width: 500px;
     margin: 20px;
