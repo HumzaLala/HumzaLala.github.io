@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Courses</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<div class="background">
+		<div class="uppernav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="projects.html">Projects</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li class="active"><a href="experience.html">Experiences</a></li>
+			</ul>
+		</div>
+
+		<div class="uppernav-small">
+			<ul>
+				<li><a href="#">&#9776;</a>
+					<div class="submenu">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="projects.html">Projects</a></li>
+                            <li><a href="courses.html">Courses</a></li>
+                            <li class="active"><a href="experience.html">Experiences</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+		<h1>Work Experiences</h1>
+	</div>
+	<div class="info">
+		<h3>Amazon SDE Intern | Seattle, WA | June - September 2023</h3> <br>
+        <h4>Summary of achievements</h4>
+        <ul>
+            <li>Enhanced core routing backend of Amazon internal Case Management System platform for Seller Support</li>
+            <li>Authored detailed, team-reviewed design document outlining problem, solution, design decisions, and implementation</li>
+            <li>Pioneered support for routing tickets to the correct Agent based on dynamic Intelligent routing attributes</li>
+            <li>Streamlined Agent workflow by eliminating usage of external tool for assigning tickets, boosting productivity by 50%</li>
+            <li>Utilized AWS Lambda to invoke routing process upon observed changes in configured ticket folder</li>
+        </ul>
+        <h4>Technologies used</h4>
+        <ul>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>Spring Boot</li>
+            <li>AWS Lambda</li>
+            <li>AWS DynamoDB</li>
+            <li>AWS Identity and Access Management (IAM)</li>
+            <li>Git</li>
+        </ul>
+        <h4>Challenges faced</h4>
+        <b>Initial challenges</b><br><br>
+                The first challenge I faced was simply getting used to working at a large tech company like Amazon. Being my first internship, it took me a bit to get used
+                to the day-to-day workflow. The second challenge I faced was understanding the base goals of my project. Since it required me to interact
+                with so many different services, each with their different purposes, I spent quite a while reading wikis and documentation in my first few weeks.
+                The third challenge I faced was regarding my choice of development laptop. Since my entire team used Macbooks for their work and 
+                I had chosen a Windows laptop, I faced a whole array of setup issues which I needed to fix independently.
+        <br><br>
+        <b>Techincal challenges</b><br><br>
+        <!-- ul of challenges -->
+        <ul>
+            <li><b>Challenge:</b> The first technical challenge I faced was getting one of the servies I was modifying to build after introducing a change
+                to one of the packages. Without the change, the service would build, but with it, the build would break. I spent a lot of time
+                looking at wikis, similar scenarios other Amazonians had dealt with, and asking questions to my mentor and other teammates <br><br>
+                <b>Solution:</b> After talking to another intern who had a similar issue, I first realized that there was an issue with the
+                package versions I was using. After completely restarting my workspace from scratch, the fix for the issue was to pull in
+                a problematic package locally to prevent conflicting builds. <br><br>
+            </li>
+            <li><b>Challenge:</b> The second technical challenge was having 2 or more locally-running services to call each other. These services
+                are configured to call the beta versions of the services they are dependent on, not locally-running instances. Normally,
+                it would be a simple configuration change, but since one of the services was running in a Docker container, configuring
+                the correct host/port became more diffucult.<br><br>
+                <b>Solution:</b> The service that was running in the Docker container needed to use the static IP address of the development
+                machine the other service was running on when making its service calls. Using the common host name and relying on DNS resolution 
+                did not work due to dynamic IP addressing.<br><br>
+            </li>
+        </ul>
+        <h4>View from the roof of my building</h4>
+        <img src="./images/building.jpg" alt="Lake union from Amazon building">
+	</div>
+
+
+	<div class="footer">
+		<h4>Links</h4>
+		<a target="_blank" href="https://www.linkedin.com/in/humza-lala-140a101a5?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2FaUrAykhQJOKYz9h6V9quQ%3D%3D" class="fa fa-linkedin"></a>
+		<a target="_blank" href="https://github.com/HumzaLala" class="fa fa-github"></a>
+	</div>
+</body>
+</html>
